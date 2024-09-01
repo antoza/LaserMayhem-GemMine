@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Translation_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 7038dfaf0fcaf5342997dea5adf9a5c5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 86170857472
+    m_Localized: "<size=34>Laser Mayhem est en d\xE9veloppement, rejoignez le Discord
+      pour savoir quand les serveurs sont disponibles, \xEAtre notifi\xE9 des mises
+      \xE0 jour, et rencontrer des joueurs</size>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2532446120636416
+    m_Localized: C H A L L E N G E S
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2533403478913024
+    m_Localized: J o u e r
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2533736401793024
+    m_Localized: Connexion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2534028329545728
+    m_Localized: Mot de passe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2534217505239040
+    m_Localized: Inscription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2534590903152640
+    m_Localized: O P T I O N S
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2534666232852480
+    m_Localized: T U T O R I E L
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2534748638343168
+    m_Localized: DECONNEXION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2534836722921472
+    m_Localized: Q U I T T E R
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2535580721147904
+    m_Localized: D U E L
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2535707426877440
+    m_Localized: Menu principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2535631761633280
+    m_Localized: S O L O
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2535668939943936
+    m_Localized: M U L T I J O U E U R
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2536522967347200
+    m_Localized: Jetez un coup d'oeil au tutoriel avant de jouer en Duel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2536917135454208
+    m_Localized: R E T O U R
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2537258350473216
+    m_Localized: Recherche d'un adversaire...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2537354748162048
+    m_Localized: "Si vous \xEAtes seul, invitez un ami \xE0 d\xE9fier"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2537509970964480
+    m_Localized: A N N U L E R
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2537858026893312
+    m_Localized: Pseudo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538119583690752
+    m_Localized: Fond d'ecran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2538308063129600
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2895040698314752
+    m_Localized: G E N E R A L
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2895138530455552
+    m_Localized: P I E C E S
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2895816900407296
+    m_Localized: 'Dans le mode de jeu Duel, votre objectif est de bruler votre adversaire
+      en reflechissant le laser vers lui.
+
+
+      Lors de votre tour, vous pouvez
+      placer des pieces (telles que des miroirs) sur le plateau pour reflechir le
+      laser.
+
+
+      Ensuite, appuyez sur le bouton de fin de tour afin de declencher
+      le laser !'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2896529428770816
+    m_Localized: "Lorsqu'un joueur termine son tour, le laser est actif et inflige
+      des degats aux bordures bleues et rouges.\n\nLe joueur rouge perd 1 PV quand
+      la bordure rouge est touchee. Il en va de m\xEAme pour le joueur bleu.\n\nChaque
+      joueur commence avec 15 PV."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2896878730407936
+    m_Localized: "La boutique se situe en haut \xE0 droite de l'ecran. Vous pouvez
+      y acheter des pi\xE8ces \xE0 placer sur le plateau. Elles coutent de 1 a 4
+      jetons.\n\nChaque tour, les pieces non achetees restent dans la boutique. Les
+      emplacements vide sont remplis par de nouvelles pieces, aleatoirement generees
+      par la droite."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2897486271148032
+    m_Localized: "Quand votre tour commence, vous gagnez des jetons que vous pouvez
+      utiliser pour : \n-Placer une nouvelle piece.\n-Deplacer une piece sur une
+      case adjacente (*)\n-Detruire une piece (*)\n\n(*) Leur cout augmente de 1
+      definitivement a chaque utilisation.\n\nVous pouvez conserver vos jetons pour
+      le prochain tour.\nVous pouvez decider de vous endetter jusqu'a -3 jetons.
+      Dans ce cas votre adversaire recevra le double de votre exces en compensation,
+      alors soyez vigilents !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2897976497205248
+    m_Localized: 'Prenez le temps d''essayer de placer les pieces sur le plateau
+      afin de previsualiser leurs interactions. Il n''y a pas de limite de temps
+      pour le moment.
+
+
+      Le bouton "Undo" vous permet d''annuler votre dernier
+      coup.
+
+
+      Les pieces achetees durant ce tour ont une aura bleue. Cela signifie
+      que vous pouvez les deplacer librement et gratuitement.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2898938402107392
+    m_Localized: "Ce sont les pieces les plus basiques de Laser Mayhem. \n\nLe laser
+      subit une reflection d'un angle de 90\xB0."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2899156069707776
+    m_Localized: "Le laser subit une rotation d'un angle de 90\xB0 dans le sens horaire
+      ou anti-horaire."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2899486379536384
+    m_Localized: "Cette piece separe le laser en deux, chacun partant \xE0 90\xB0
+      dans un sens et dans l'autre."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2899920846516224
+    m_Localized: 'Ces miroirs reflechissent les lasers perpendiculairement.
+
+      Les
+      lasers arrivant en parallele ne sont pas affectes par le miroir.
+
+
+      Ces
+      miroirs peuvent avoir des interactions surprenantes quand ils sont combines
+      avec les diviseurs et les rotateurs'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2900524725628928
+    m_Localized: Miroirs Slash et Backslash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2900748399472640
+    m_Localized: Rotateurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2900913051070464
+    m_Localized: Diviseurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2901003912278016
+    m_Localized: Miroirs Verticaux et Horizontaux
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4703689569660928
+    m_Localized: "Place cette pi\xE8ce sur le plateau pour r\xE9flechir le laser
+      vers l'oeil"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4704052385345536
+    m_Localized: Challenge 0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4704094747815936
+    m_Localized: "Yeux ferm\xE9s :"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4704173399404544
+    m_Localized: "<size=30>Puis appuie sur ce bouton pour d\xE9clencher le laser</size>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7017450934661120
+    m_Localized: Suivez l'actu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4705551836442624
+    m_Localized: lasers restants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4706086782169088
+    m_Localized: Challenge 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4706991694868480
+    m_Localized: "Placer une pi\xE8ce sur le plateau lui octroie une aura bleue.
+      Cela indique que vous pouvez les d\xE9placer librement."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4707025698091008
+    m_Localized: "Vous pouvez \xE9galement annuler votre dernier coup avec ce bouton."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4707564502577152
+    m_Localized: Challenge 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4707914638880768
+    m_Localized: "Une pi\xE8ce peut r\xE9flechir un laser venant de plusieurs directions."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4708440734625792
+    m_Localized: Challenge 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4708689729482752
+    m_Localized: "Parfois, vous pouvez d\xE9clencher plusieurs fois le lasers"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067070189268992
+    m_Localized: Challenge 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067372976074752
+    m_Localized: Challenge 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067423894925312
+    m_Localized: Challenge 7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067446913265664
+    m_Localized: Challenge 8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067449299824640
+    m_Localized: Challenge 9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067451946430464
+    m_Localized: Challenge 10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067454127468544
+    m_Localized: Challenge 11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5067455197016064
+    m_Localized: Challenge 12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6142475902054400
+    m_Localized: CHALLENGE REUSSI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6142717200363520
+    m_Localized: RECOMMENCER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6142892249640960
+    m_Localized: "ANNULER \nDERNIER"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6143114015076352
+    m_Localized: 'MENU
+
+      PRINCIPAL'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6143179412664320
+    m_Localized: 'CHALLENGE
+
+      SUIVANT'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6143653067026432
+    m_Localized: CHALLENGE ECHOUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7017811753857024
+    m_Localized: <size=28>Rencontrez des joueurs</size>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7017923162959872
+    m_Localized: <size=32>Rejoignez Discord !</size>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16095806984581120
+    m_Localized: 'Score:'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
