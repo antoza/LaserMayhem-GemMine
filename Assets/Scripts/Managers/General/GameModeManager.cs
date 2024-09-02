@@ -29,13 +29,6 @@ public abstract class GameModeManager : Manager<GameModeManager>
     {
         IsGameOver = true;
 
-#if DEDICATED_SERVER
-        SenderManager.Instance.SaveResults();
-        MenuMessageManager.Instance.StopServer();
-        SceneManager.LoadScene("ServerMenu");
-        return;
-#else
-
         if (winner == null)
         {
             ((UIManagerGame)UIManager.Instance).TriggerDraw();
@@ -51,6 +44,5 @@ public abstract class GameModeManager : Manager<GameModeManager>
                 ((UIManagerGame)UIManager.Instance).TriggerDefeat();
             }
         }
-#endif
     }
 }

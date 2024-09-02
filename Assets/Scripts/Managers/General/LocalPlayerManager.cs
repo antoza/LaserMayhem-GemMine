@@ -5,7 +5,6 @@ using UnityEngine;
 #nullable enable
 public abstract class LocalPlayerManager : Manager<LocalPlayerManager>
 {
-#if !DEDICATED_SERVER
     public PlayerData LocalPlayer { get; private set; }
 
     [field: SerializeField]
@@ -80,17 +79,4 @@ public abstract class LocalPlayerManager : Manager<LocalPlayerManager>
         MovePieceAction action = new MovePieceAction(LocalPlayer, SourceTile, destinationTile);
         VerifyAction(action);
     }
-
-    public virtual void CreateAndVerifyUndoAction()
-    {
-        UndoAction action = new UndoAction(LocalPlayer);
-        VerifyAction(action);
-    }
-
-    public virtual void CreateAndVerifyUndoEverythingAction()
-    {
-        UndoEverythingAction action = new UndoEverythingAction(LocalPlayer);
-        VerifyAction(action);
-    }
-#endif
 }
