@@ -7,7 +7,6 @@ public class PricedSelectionTile : SelectionTile
     [field: SerializeField]
     public int cost;
 
-#if !DEDICATED_SERVER
     protected override bool VerifyOnMouseButtonDown()
     {
         if (!base.VerifyOnMouseButtonDown()) return false;
@@ -18,5 +17,4 @@ public class PricedSelectionTile : SelectionTile
         }
         return true;
     }
-#endif
 }

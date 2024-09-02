@@ -45,9 +45,7 @@ public sealed class TurnManagerShredder : TurnManager
     private void StartLaserPhase(EndTurnAction action)
     {
         IsWaitingForPlayerAction = false;
-#if !DEDICATED_SERVER
         //if (LocalPlayerManager.Instance.IsLocalPlayersTurn()) LocalPlayerManager.Instance.ResetSourceTile();
-#endif
         BoardManager.Instance.DisplayEndTurnLaser();
         GameModeManagerShredder.Instance.UpdateCrystalsAndBombsState();
     }

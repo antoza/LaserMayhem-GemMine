@@ -15,21 +15,4 @@ public abstract class PlayerAction : GameAction
     {
         PlayerData = playerData;
     }
-
-    public override string SerializeAction()
-    {
-        return base.SerializeAction() + "+" + PlayerData.PlayerID;
-    }
-    public override bool DeserializeSubAction(Queue<string> parsedString)
-    {
-        try
-        {
-            PlayerData = PlayersManager.Instance.GetPlayer(int.Parse(parsedString.Dequeue()));
-            return true;
-        }
-        catch (Exception)
-        {
-            return false;
-        }
-    }
 }

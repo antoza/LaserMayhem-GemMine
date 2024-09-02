@@ -46,9 +46,7 @@ public abstract class Gem : Receiver
     public void Destroy()
     {
         ParentTile!.Piece = null;
-#if !DEDICATED_SERVER
         ((UIManagerGame)UIManager.Instance).DisplayCoinToss(Value, transform.position);
-#endif  
         Destroy(this);
     }
 }

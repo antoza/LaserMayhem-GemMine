@@ -89,30 +89,6 @@ public abstract class BoardManager : Manager<BoardManager>
     }
 
 
-    /*
-    //End turn events
-    public delegate void DestroyLaserEvent();
-    public static event DestroyLaserEvent? DestroyLaser;
-
-    public delegate void EndTurnEventHandler();
-    public static event EndTurnEventHandler? OnEndTurn;
-
-    public delegate void EndLaserPhaseEventHandler();
-    public static event EndLaserPhaseEventHandler? OnEndLaserPhase;
-
-
-    //Dans StartLaserPhase
-    DestroyLaser?.Invoke();
-    OnEndTurn?.Invoke();
-
-    // Dans StartAnnouncementPhase
-    DestroyLaser?.Invoke();
-    OnEndLaserPhase?.Invoke();
-
-
-    Faut aussi les appeller dans le RPG.cs lorsqu'une pièce est ajouté, déplacée ou enlevée.
-    */
-
     protected virtual void GenerateAllTiles() { }
     
     protected List<BoardTile> GenerateBoardTilesInArea(int xLeft, int xRight, int yBottom, int yTop, TileName tileName, GameObject? parent)

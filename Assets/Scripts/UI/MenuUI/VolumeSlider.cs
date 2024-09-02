@@ -1,4 +1,3 @@
-#if !DEDICATED_SERVER
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,4 +16,3 @@ public class VolumeSlider : MonoBehaviour
         SoundManager.Instance.ChangeMasterVolume(volumeSlider.value);
     }
 }
-#endif

@@ -5,7 +5,6 @@ using UnityEngine;
 #nullable enable
 public class MouseFollower : MonoBehaviour
 {
-#if !DEDICATED_SERVER
     [field: SerializeField]
     private SpriteRenderer? m_FollowingTileRenderer;
 
@@ -28,5 +27,4 @@ public class MouseFollower : MonoBehaviour
             m_FollowingTileRenderer!.sprite = null;
         }
     }
-#endif
 }

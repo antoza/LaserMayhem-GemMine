@@ -62,17 +62,14 @@ public abstract class Tile : MonoBehaviour
     {
         //InitTilePositions();
         InstantiatePiece(_startingPiece);
-#if !DEDICATED_SERVER
         InitMouseOverIndicator();
         InitSourceTileIndicator();
         InitPulsatingIndicator();
-#endif
         SetColor();
     }
 
     public virtual void SetColor() { }
 
-#if !DEDICATED_SERVER
     private void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(0))
@@ -185,7 +182,6 @@ public abstract class Tile : MonoBehaviour
             _pulsatingIndicator!.SetActive(false);
         }
     }
-#endif
 
     public Tile InstantiateTile()
     {

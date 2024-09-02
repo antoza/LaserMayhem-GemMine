@@ -10,7 +10,6 @@ using Unity.VisualScripting;
 
 public class UIManagerGame : UIManager
 {
-#if !DEDICATED_SERVER
     public static new UIManagerGame Instance => (UIManagerGame)UIManager.Instance;
 
     private int[] playerIndexes;
@@ -212,5 +211,4 @@ public class UIManagerGame : UIManager
             }
         }*/
     }
-#endif
 }

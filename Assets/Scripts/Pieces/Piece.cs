@@ -15,20 +15,16 @@ public abstract class Piece : MonoBehaviour
         get => _parentTile;
         set
         {
-#if !DEDICATED_SERVER
             if (_parentTile != null)
             {
                 if (IsPlayedThisTurn) { _parentTile.StopPulsating(); }
             }
-#endif
 
             _parentTile = value;
-#if !DEDICATED_SERVER
             if (_parentTile != null)
             {
                 if (IsPlayedThisTurn) { _parentTile.StartPulsating(); }
             }
-#endif
         }
     }
 
@@ -42,13 +38,11 @@ public abstract class Piece : MonoBehaviour
         set
         {
             _isPlayedThisTurn = value;
-#if !DEDICATED_SERVER
             if (ParentTile != null)
             {
                 if (IsPlayedThisTurn) { ParentTile.StartPulsating(); }
                 else { ParentTile.StopPulsating(); };
             }
-#endif
             if (IsPlayedThisTurn) TurnManager.Instance.AddPiecePlayedThisTurn(this);
             else TurnManager.Instance.RemovePiecePlayedThisTurn(this);
         }

@@ -1,4 +1,3 @@
-#if !DEDICATED_SERVER
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -48,4 +47,3 @@ public class MenuButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
 
     public virtual void DoOnClick() { }
 }
-#endif

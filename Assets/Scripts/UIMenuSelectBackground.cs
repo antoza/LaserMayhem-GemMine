@@ -1,4 +1,3 @@
-#if !DEDICATED_SERVER
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -47,4 +46,3 @@ public class UIMenuSelectBackground : MonoBehaviour
         Selectionner.SetActive(false);
     }
 }
-#endif

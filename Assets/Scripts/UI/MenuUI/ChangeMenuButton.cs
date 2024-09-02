@@ -1,4 +1,3 @@
-#if !DEDICATED_SERVER
 using UnityEngine;
 
 public class ChangeMenuButton : MenuButton
@@ -11,4 +10,3 @@ public class ChangeMenuButton : MenuButton
         MenusManager.Instance.ChangeMenu(TargetMenu);
     }
 }
-#endif

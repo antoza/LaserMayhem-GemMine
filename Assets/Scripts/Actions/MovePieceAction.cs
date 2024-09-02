@@ -12,11 +12,6 @@ public class MovePieceAction : PlayerAction
     public Piece? SourcePiece;
     public Piece? TargetPiece;
 
-    public override string SerializeAction()
-    {
-        return base.SerializeAction() + "+" + SourceTile.name + "+" + TargetTile.name;
-    }
-
     public MovePieceAction() : base()
     {
     }
@@ -25,20 +20,5 @@ public class MovePieceAction : PlayerAction
     {
         SourceTile = sourceTile;
         TargetTile = targetTile;
-    }
-
-    public override bool DeserializeSubAction(Queue<string> parsedString)
-    {
-        base.DeserializeSubAction(parsedString);
-        try
-        {
-            SourceTile = GameObject.Find(parsedString.Dequeue()).GetComponent<Tile>();
-            TargetTile = GameObject.Find(parsedString.Dequeue()).GetComponent<Tile>();
-            return true;
-        }
-        catch (Exception)
-        {
-            return false;
-        }
     }
 }

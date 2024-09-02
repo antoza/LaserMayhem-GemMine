@@ -53,9 +53,7 @@ public class GameModeManagerShredder : GameModeManager
             }
         }
 
-#if !DEDICATED_SERVER
         UIManagerGame.Instance.UpdateScoreInt(_score);
-#endif
     }
 
     public void DecrementDividerCooldown(int amount)

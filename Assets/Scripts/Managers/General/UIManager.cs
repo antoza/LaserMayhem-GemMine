@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 
 public abstract class UIManager : Manager<UIManager>
 {
-#if !DEDICATED_SERVER
     private bool isUIManagerReady = false;
     // Orders to execute in order the UI updates called before manager is ready
     private int nextUpdateOrder = 0;
@@ -62,5 +61,4 @@ public abstract class UIManager : Manager<UIManager>
         yield return new WaitForSeconds(delay);
         Destroy(go);
     }
-#endif
 }

@@ -1,5 +1,3 @@
-#if !DEDICATED_SERVER
-
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -70,4 +68,3 @@ public class MenusManager : MonoBehaviour
         m_CanInteractWithUI = true;
     }
 }
-#endif
